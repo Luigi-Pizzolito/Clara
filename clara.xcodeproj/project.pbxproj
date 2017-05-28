@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BD94411ED0D867007BC891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD94401ED0D867007BC891 /* AppDelegate.swift */; };
+		23BD94431ED0D867007BC891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD94421ED0D867007BC891 /* ViewController.swift */; };
+		23BD94451ED0D867007BC891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BD94441ED0D867007BC891 /* Assets.xcassets */; };
+		23BD94481ED0D867007BC891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BD94461ED0D867007BC891 /* Main.storyboard */; };
+		23BD94531ED0D867007BC891 /* claraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD94521ED0D867007BC891 /* claraTests.swift */; };
+		23BD945E1ED0D867007BC891 /* claraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD945D1ED0D867007BC891 /* claraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23BD944F1ED0D867007BC891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BD94351ED0D867007BC891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BD943C1ED0D867007BC891;
+			remoteInfo = clara;
+		};
+		23BD945A1ED0D867007BC891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23BD94351ED0D867007BC891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23BD943C1ED0D867007BC891;
+			remoteInfo = clara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BD943D1ED0D867007BC891 /* clara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BD94401ED0D867007BC891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23BD94421ED0D867007BC891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23BD94441ED0D867007BC891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23BD94471ED0D867007BC891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23BD94491ED0D867007BC891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BD944E1ED0D867007BC891 /* claraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = claraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BD94521ED0D867007BC891 /* claraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claraTests.swift; sourceTree = "<group>"; };
+		23BD94541ED0D867007BC891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BD94591ED0D867007BC891 /* claraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = claraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BD945D1ED0D867007BC891 /* claraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claraUITests.swift; sourceTree = "<group>"; };
+		23BD945F1ED0D867007BC891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BD943A1ED0D867007BC891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD944B1ED0D867007BC891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD94561ED0D867007BC891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BD94341ED0D867007BC891 = {
+			isa = PBXGroup;
+			children = (
+				23BD943F1ED0D867007BC891 /* clara */,
+				23BD94511ED0D867007BC891 /* claraTests */,
+				23BD945C1ED0D867007BC891 /* claraUITests */,
+				23BD943E1ED0D867007BC891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23BD943E1ED0D867007BC891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BD943D1ED0D867007BC891 /* clara.app */,
+				23BD944E1ED0D867007BC891 /* claraTests.xctest */,
+				23BD94591ED0D867007BC891 /* claraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BD943F1ED0D867007BC891 /* clara */ = {
+			isa = PBXGroup;
+			children = (
+				23BD94401ED0D867007BC891 /* AppDelegate.swift */,
+				23BD94421ED0D867007BC891 /* ViewController.swift */,
+				23BD94441ED0D867007BC891 /* Assets.xcassets */,
+				23BD94461ED0D867007BC891 /* Main.storyboard */,
+				23BD94491ED0D867007BC891 /* Info.plist */,
+			);
+			path = clara;
+			sourceTree = "<group>";
+		};
+		23BD94511ED0D867007BC891 /* claraTests */ = {
+			isa = PBXGroup;
+			children = (
+				23BD94521ED0D867007BC891 /* claraTests.swift */,
+				23BD94541ED0D867007BC891 /* Info.plist */,
+			);
+			path = claraTests;
+			sourceTree = "<group>";
+		};
+		23BD945C1ED0D867007BC891 /* claraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23BD945D1ED0D867007BC891 /* claraUITests.swift */,
+				23BD945F1ED0D867007BC891 /* Info.plist */,
+			);
+			path = claraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BD943C1ED0D867007BC891 /* clara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BD94621ED0D867007BC891 /* Build configuration list for PBXNativeTarget "clara" */;
+			buildPhases = (
+				23BD94391ED0D867007BC891 /* Sources */,
+				23BD943A1ED0D867007BC891 /* Frameworks */,
+				23BD943B1ED0D867007BC891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clara;
+			productName = clara;
+			productReference = 23BD943D1ED0D867007BC891 /* clara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23BD944D1ED0D867007BC891 /* claraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BD94651ED0D867007BC891 /* Build configuration list for PBXNativeTarget "claraTests" */;
+			buildPhases = (
+				23BD944A1ED0D867007BC891 /* Sources */,
+				23BD944B1ED0D867007BC891 /* Frameworks */,
+				23BD944C1ED0D867007BC891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BD94501ED0D867007BC891 /* PBXTargetDependency */,
+			);
+			name = claraTests;
+			productName = claraTests;
+			productReference = 23BD944E1ED0D867007BC891 /* claraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23BD94581ED0D867007BC891 /* claraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BD94681ED0D867007BC891 /* Build configuration list for PBXNativeTarget "claraUITests" */;
+			buildPhases = (
+				23BD94551ED0D867007BC891 /* Sources */,
+				23BD94561ED0D867007BC891 /* Frameworks */,
+				23BD94571ED0D867007BC891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23BD945B1ED0D867007BC891 /* PBXTargetDependency */,
+			);
+			name = claraUITests;
+			productName = claraUITests;
+			productReference = 23BD94591ED0D867007BC891 /* claraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BD94351ED0D867007BC891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luigi Pizzolito";
+				TargetAttributes = {
+					23BD943C1ED0D867007BC891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					23BD944D1ED0D867007BC891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23BD943C1ED0D867007BC891;
+					};
+					23BD94581ED0D867007BC891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23BD943C1ED0D867007BC891;
+					};
+				};
+			};
+			buildConfigurationList = 23BD94381ED0D867007BC891 /* Build configuration list for PBXProject "clara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BD94341ED0D867007BC891;
+			productRefGroup = 23BD943E1ED0D867007BC891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BD943C1ED0D867007BC891 /* clara */,
+				23BD944D1ED0D867007BC891 /* claraTests */,
+				23BD94581ED0D867007BC891 /* claraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BD943B1ED0D867007BC891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD94451ED0D867007BC891 /* Assets.xcassets in Resources */,
+				23BD94481ED0D867007BC891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD944C1ED0D867007BC891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD94571ED0D867007BC891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BD94391ED0D867007BC891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD94431ED0D867007BC891 /* ViewController.swift in Sources */,
+				23BD94411ED0D867007BC891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD944A1ED0D867007BC891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD94531ED0D867007BC891 /* claraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23BD94551ED0D867007BC891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BD945E1ED0D867007BC891 /* claraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23BD94501ED0D867007BC891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BD943C1ED0D867007BC891 /* clara */;
+			targetProxy = 23BD944F1ED0D867007BC891 /* PBXContainerItemProxy */;
+		};
+		23BD945B1ED0D867007BC891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23BD943C1ED0D867007BC891 /* clara */;
+			targetProxy = 23BD945A1ED0D867007BC891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23BD94461ED0D867007BC891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BD94471ED0D867007BC891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BD94601ED0D867007BC891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23BD94611ED0D867007BC891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		23BD94631ED0D867007BC891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.clara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		23BD94641ED0D867007BC891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = clara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.clara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		23BD94661ED0D867007BC891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.claraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clara.app/Contents/MacOS/clara";
+			};
+			name = Debug;
+		};
+		23BD94671ED0D867007BC891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.claraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clara.app/Contents/MacOS/clara";
+			};
+			name = Release;
+		};
+		23BD94691ED0D867007BC891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.claraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clara;
+			};
+			name = Debug;
+		};
+		23BD946A1ED0D867007BC891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = claraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luigi.pizzolito.claraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BD94381ED0D867007BC891 /* Build configuration list for PBXProject "clara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD94601ED0D867007BC891 /* Debug */,
+				23BD94611ED0D867007BC891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BD94621ED0D867007BC891 /* Build configuration list for PBXNativeTarget "clara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD94631ED0D867007BC891 /* Debug */,
+				23BD94641ED0D867007BC891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BD94651ED0D867007BC891 /* Build configuration list for PBXNativeTarget "claraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD94661ED0D867007BC891 /* Debug */,
+				23BD94671ED0D867007BC891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BD94681ED0D867007BC891 /* Build configuration list for PBXNativeTarget "claraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BD94691ED0D867007BC891 /* Debug */,
+				23BD946A1ED0D867007BC891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BD94351ED0D867007BC891 /* Project object */;
+}
