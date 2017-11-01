@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:clara.xcodeproj">
+      location = "self:/Users/luigipizzolito/Desktop/App Development/Projects/Clara/Clara.xcodeproj">
    </FileRef>
 </Workspace>

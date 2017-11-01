@@ -17,7 +17,7 @@
                BlueprintIdentifier = "23BD943C1ED0D867007BC891"
                BuildableName = "clara.app"
                BlueprintName = "clara"
-               ReferencedContainer = "container:clara.xcodeproj">
+               ReferencedContainer = "container:Clara.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "23BD944D1ED0D867007BC891"
                BuildableName = "claraTests.xctest"
                BlueprintName = "claraTests"
-               ReferencedContainer = "container:clara.xcodeproj">
+               ReferencedContainer = "container:Clara.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "23BD94581ED0D867007BC891"
                BuildableName = "claraUITests.xctest"
                BlueprintName = "claraUITests"
-               ReferencedContainer = "container:clara.xcodeproj">
+               ReferencedContainer = "container:Clara.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "23BD943C1ED0D867007BC891"
             BuildableName = "clara.app"
             BlueprintName = "clara"
-            ReferencedContainer = "container:clara.xcodeproj">
+            ReferencedContainer = "container:Clara.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "23BD943C1ED0D867007BC891"
             BuildableName = "clara.app"
             BlueprintName = "clara"
-            ReferencedContainer = "container:clara.xcodeproj">
+            ReferencedContainer = "container:Clara.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "23BD943C1ED0D867007BC891"
             BuildableName = "clara.app"
             BlueprintName = "clara"
-            ReferencedContainer = "container:clara.xcodeproj">
+            ReferencedContainer = "container:Clara.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
